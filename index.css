@@ -1,0 +1,104 @@
+html {
+    background-color: lightskyblue;
+}
+h1 {
+    background-color: lightgray;
+    color: black;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 70%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    margin-left: 35px;
+}
+
+nav {
+    margin-left: 42px;
+}
+
+a {
+    background-color: lightgray;
+    padding: 7px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+
+}
+
+a:hover {
+    transform: 1s;
+    background-color: lightcoral;
+
+}
+
+.main {
+    background-color: lightgray;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child1 {
+    margin-top: 10px;
+    width:fit-content;
+    height:fit-content;
+}
+
+.img {
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.picture {
+    width: 20%;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.footer {
+    text-align: center;
+    align-content: center;
+}
+
+footer {
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
